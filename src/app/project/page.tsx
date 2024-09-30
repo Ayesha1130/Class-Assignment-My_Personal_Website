@@ -14,7 +14,7 @@ const Project = () => {
 
 const cardData = [
   {
-    img:'/image/hello.png',
+    img:'/image/hello.PNG',
     title:'Hello World',
     description:'',
     link:'https://github.com/Ayesha1130/nextjs-hello-world.git',

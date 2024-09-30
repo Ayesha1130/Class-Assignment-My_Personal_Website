@@ -40,7 +40,7 @@ const About = () => {
           <h2 className="text-center text-3xl md:text-4xl font-bold">
             <Typewriter
               options={{
-                strings: ["Crafting My Tech Journey"],
+                strings: ['Crafting My Tech Journey'],
                 autoStart: true,
                 loop: true,
               }}

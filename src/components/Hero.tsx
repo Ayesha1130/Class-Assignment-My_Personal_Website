@@ -19,7 +19,7 @@ const Hero = () => {
         <span className="text-rose-700">Welcome To My Portfolio</span>
         <Typewriter
           options={{
-            strings: [" Hey ! Ayesha Iqbal Here <br>  I`m Front End Developer"],
+            strings: [' Hey ! Ayesha Iqbal Here <br>  I`m Front End Developer'],
             autoStart: true,
             loop: true,
           }}

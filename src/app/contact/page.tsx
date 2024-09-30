@@ -1,5 +1,5 @@
-import React from 'react'
-import { MdEmail } from "react-icons/md";
+import React from 'react';
+import { MdEmail } from 'react-icons/md';
 
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
 
       
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

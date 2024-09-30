@@ -1,11 +1,11 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import Typewriter from "typewriter-effect";
-import "aos/dist/aos.css"; // Import AOS styles
-import { useEffect } from "react";
-import AOS from "aos";
-import { FaGithub,FaLinkedin } from "react-icons/fa";
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import Typewriter from 'typewriter-effect';
+import 'aos/dist/aos.css'; // Import AOS styles
+import { useEffect } from 'react';
+import AOS from 'aos';
+import { FaGithub,FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   useEffect(() => {

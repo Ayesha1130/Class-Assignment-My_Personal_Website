@@ -1,11 +1,11 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Typewriter from "typewriter-effect";
-import "aos/dist/aos.css"; // Import AOS styles
-import { useEffect } from "react";
-import AOS from "aos";
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Typewriter from 'typewriter-effect';
+import 'aos/dist/aos.css'; // Import AOS styles
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 const About = () => {
   useEffect(() => {

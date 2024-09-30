@@ -1,11 +1,11 @@
-"use client"
-import React from 'react'
-import { useEffect } from "react";
-import { FaHtml5,FaCss3Alt, FaReact,FaNodeJs  } from "react-icons/fa";
-import { RiJavascriptLine, RiTailwindCssFill, RiNextjsLine } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
-import "aos/dist/aos.css"; // Import AOS styles
-import AOS from "aos";
+'use client';
+import React from 'react';
+import { useEffect } from 'react';
+import { FaHtml5,FaCss3Alt, FaReact,FaNodeJs  } from 'react-icons/fa';
+import { RiJavascriptLine, RiTailwindCssFill, RiNextjsLine } from 'react-icons/ri';
+import { SiTypescript } from 'react-icons/si';
+import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos';
 
 
 
@@ -26,7 +26,7 @@ const skills = [
   {icon: <FaReact className='text-6xl' />, label: 'React.js' , color: 'bg-teal-900'},
   {icon: <RiNextjsLine className='text-6xl' />, label: 'Next.js', color: 'bg-rose-950'},
 
-]
+];
 
 return (
   <div className='flex flex-col items-center p-4 mt-28'>
@@ -50,5 +50,5 @@ return (
   </div>
 );
 };
-export default Skills
+export default Skills;
 

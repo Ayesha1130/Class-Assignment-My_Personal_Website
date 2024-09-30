@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -9,31 +9,31 @@ const Navbar = () => {
       </h1>
       <ul className="flex flex-wrap justify-center gap-4   italic text-lg md:text-xl cursor-pointer font-semibold  ">
         <Link
-          href={"/"}
+          href={'/'}
           className="hover:text-red-700 transition-transform hover:scale-110"
         >
           Home
         </Link>
         <Link
-          href={"/about"}
+          href={'/about'}
           className="hover:text-red-700 transition-transform hover:scale-110"
         >
           About
         </Link>
         <Link
-          href={"/skills"}
+          href={'/skills'}
           className="hover:text-red-700 transition-transform hover:scale-110"
         >
           Skills
         </Link>
         <Link
-          href={"/project"}
+          href={'/project'}
           className="hover:text-red-700 transition-transform hover:scale-110"
         >
           Projects
         </Link>
         <Link
-          href={"/contact"}
+          href={'/contact'}
           className="hover:text-red-700 transition-transform hover:scale-110 "
         >
           Contact

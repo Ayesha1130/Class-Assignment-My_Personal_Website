@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import React , {useEffect} from 'react';
 import Card from '@/components/Card';
 import 'aos/dist/aos.css';
@@ -108,7 +108,7 @@ return(
 
   </div>
 
-)
-}
+);
+};
 
 export default Project;

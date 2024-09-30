@@ -4,7 +4,7 @@
     "next/typescript"
   ],
   "rules": {
-    "no-console": "warn",  // Console statements ko warning dega
+    "no-console": "off",  // Console statements ko warning dega
     "semi": ["error", "always"],  // Semicolon ki requirement
     "quotes": ["error", "single"],  // Single quotes ka istemal
     "@typescript-eslint/no-explicit-any": "warn"  // 'any' type par warning

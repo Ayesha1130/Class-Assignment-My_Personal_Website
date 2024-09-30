@@ -4,13 +4,22 @@
     "next/typescript"
   ],
   "rules": {
-    "no-console": "off",  // Console statements ko warning dega
-    "semi": ["error", "always"],  // Semicolon ki requirement
-    "quotes": ["error", "single"],  // Single quotes ka istemal
-    "@typescript-eslint/no-explicit-any": "warn"  // 'any' type par warning
+    "quotes": ["error", "single"], // Strings must use single quotes
+    "semi": ["error", "always"],    // Semicolons must be used
+    "no-console": "warn",           // Console statements should be warned
+    "react/react-in-jsx-scope": "off", // React import not needed in Next.js
+    "@typescript-eslint/no-explicit-any": "warn", // Avoid 'any' type
+    "no-unused-vars": "warn"        // Warn for unused variables
   },
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser", // Use TypeScript parser
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
   }
 }
+

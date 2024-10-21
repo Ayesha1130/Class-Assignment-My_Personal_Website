@@ -13,12 +13,12 @@ const About = () => {
   }, []);
   return (
     <div
-      className="flex flex-col items-center text-left p-4 md:mt-52 md:flex-row md:p-10 bg-black bg-center bg-cover"
+      className="flex flex-col items-center text-left p-4 md:mt-52 md:flex-row md:p-10 bg-center bg-cover"
       
     >
       <Image
         src="/image/mini.png"
-        className="rounded-full bg-rose-700"
+        className="rounded-full border border-width-2"
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
@@ -68,10 +68,10 @@ const About = () => {
         </div>
         <div className="flex flex-col-1 gap-7 items-center p-4">
           <a href="https://github.com/Ayesha1130">
-            <FaGithub className="  size-12 bg-rose-500 rounded" />
+            <FaGithub className="  size-12 bg-rose-700 rounded" />
           </a>
           <a href="https://www.linkedin.com/in/ayesha-iqbal-2613402b4/">
-            <FaLinkedin className="rounded size-12 bg-rose-500" />
+            <FaLinkedin className="rounded size-12 bg-rose-700" />
           </a>
         </div>
       </div>

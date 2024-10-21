@@ -28,7 +28,7 @@ const Hero = () => {
 
       <Image
         src="/image/mini.png"
-        className="rounded-md bg-rose-700 mt-9"
+        className="rounded-md border borde-width-3 mt-9"
         alt="Image"
         data-aos="zoom-out-up"
         width={200}
@@ -42,10 +42,10 @@ const Hero = () => {
       </div>
       <div className="flex  gap-6 items-center mt-4">
           <a href="https://github.com/Ayesha1130">
-            <FaGithub className="  size-12 bg-rose-500 rounded" />
+            <FaGithub className="  size-12 bg-rose-700 rounded" />
           </a>
           <a href="https://www.linkedin.com/in/ayesha-iqbal-2613402b4/">
-            <FaLinkedin className="rounded size-12 bg-rose-500" />
+            <FaLinkedin className="rounded size-12 bg-rose-700" />
           </a>
         </div>
     </div>

@@ -10,7 +10,7 @@ interface CardProps {
 const Card: React.FC<CardProps> =
 ({ img, alt='Image', title, description , link, ...aosProps })=>{
   return(
-    <div {...aosProps} className="flex flex-col justify-center items-center p-4 h-[400px] w-[300px] bg-rose-600">
+    <div {...aosProps} className="flex flex-col justify-center items-center p-4 h-[400px] w-[300px] border border-width-3">
       <img className="rounded-md w-72 h-80" src={img} alt={alt} />
       <h2 className="text-lg py-6 font-semibold animate-bounce">{title}</h2>
       <p className="text-sm text-center mt-1 text-gray-400 animate-pulse">{description}</p>

@@ -64,7 +64,7 @@ const cardData = [
 },
 
 {
-  img:'/image/res.PNG',
+  img:'/image/res.PNG ',
   title:'Static Interactive Resume Builder',
   description:'',
   link:'https://github.com/Ayesha1130/Hackathons_Milestone_1_2.git',
@@ -91,13 +91,13 @@ const cardData = [
   
 ];
 return(
-  <div className='flex flex-col items-center mt-52 '>
+  <div className='flex flex-col items-center mt-40 '>
     <h1 className=' text-5xl md:text-6xl animate-bounce text-rose-700 font-bold mb-10'>My Projects</h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-10 mb-24'>
       {cardData.map((card,index)=>(
         <Card
          key={index} 
-        img={card.img}
+        img={card.img }
         title={card.title}
         description={card.description}
         link={card.link}

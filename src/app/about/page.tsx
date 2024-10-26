@@ -33,7 +33,7 @@ const About = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
       >
-        <div className=" sm:w-3/5 lg:w-1/2 mx-1/2 mx-auto ">
+        <div className=" sm:w-3/5 lg:w-1/2 mx-1/2 mx-auto  ">
           <h1 className="text-3xl md:text-4xl lg:text-5xl text-center  mb-4 text-rose-700 font-bold animate-bounce ">
             About Me
           </h1>
